@@ -1,6 +1,5 @@
 ---
 theme: default
-favicon: Maxfav.png
 title: Planning to Teach
 colorSchema: light
 css: unocss
@@ -95,8 +94,8 @@ practice, and it's also something you'll be able to reuse.
 
 <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:0.8em;">
   <div class="card" style="padding:0;overflow:hidden;">
-    <div style="background:var(--navy);padding:1.4em 0 1em;text-align:center;position:relative;">
-      <div class="icon-circle" style="background:var(--navy);border:4px solid #fff;position:absolute;left:50%;top:-24px;transform:translateX(-50%);"><Icon name="clipboardList" :size="20" color="#fff" /></div>
+    <div style="background:var(--navy);padding:1.1em 0;display:flex;align-items:center;justify-content:center;">
+      <div class="icon-circle" style="width:52px;height:52px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.6);"><Icon name="clipboardList" :size="24" color="#fff" /></div>
     </div>
     <div style="padding:0.9em;">
       <div class="badge" style="color:var(--navy);">Structure</div>
@@ -106,8 +105,8 @@ practice, and it's also something you'll be able to reuse.
     </div>
   </div>
   <div class="card" style="padding:0;overflow:hidden;">
-    <div style="background:var(--sage);padding:1.4em 0 1em;text-align:center;position:relative;">
-      <div class="icon-circle" style="background:var(--sage);border:4px solid #fff;position:absolute;left:50%;top:-24px;transform:translateX(-50%);"><Icon name="layers" :size="20" color="#fff" /></div>
+    <div style="background:var(--sage);padding:1.1em 0;display:flex;align-items:center;justify-content:center;">
+      <div class="icon-circle" style="width:52px;height:52px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.6);"><Icon name="layers" :size="24" color="#fff" /></div>
     </div>
     <div style="padding:0.9em;">
       <div class="badge" style="color:var(--sage);">Cognition</div>
@@ -117,8 +116,8 @@ practice, and it's also something you'll be able to reuse.
     </div>
   </div>
   <div class="card" style="padding:0;overflow:hidden;">
-    <div style="background:var(--rust);padding:1.4em 0 1em;text-align:center;position:relative;">
-      <div class="icon-circle" style="background:var(--rust);border:4px solid #fff;position:absolute;left:50%;top:-24px;transform:translateX(-50%);"><Icon name="gauge" :size="20" color="#fff" /></div>
+    <div style="background:var(--rust);padding:1.1em 0;display:flex;align-items:center;justify-content:center;">
+      <div class="icon-circle" style="width:52px;height:52px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.6);"><Icon name="gauge" :size="24" color="#fff" /></div>
     </div>
     <div style="padding:0.9em;">
       <div class="badge" style="color:var(--rust);">Rigor</div>
@@ -128,8 +127,8 @@ practice, and it's also something you'll be able to reuse.
     </div>
   </div>
   <div class="card" style="padding:0;overflow:hidden;">
-    <div style="background:var(--navy2);padding:1.4em 0 1em;text-align:center;position:relative;">
-      <div class="icon-circle" style="background:var(--navy2);border:4px solid #fff;position:absolute;left:50%;top:-24px;transform:translateX(-50%);"><Icon name="flagTriangleRight" :size="20" color="#fff" /></div>
+    <div style="background:var(--navy2);padding:1.1em 0;display:flex;align-items:center;justify-content:center;">
+      <div class="icon-circle" style="width:52px;height:52px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.6);"><Icon name="flagTriangleRight" :size="24" color="#fff" /></div>
     </div>
     <div style="padding:0.9em;">
       <div class="badge" style="color:var(--navy2);">Accountability</div>
