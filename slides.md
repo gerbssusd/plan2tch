@@ -1,5 +1,6 @@
 ---
 theme: default
+favicon: Maxfav.png
 title: Planning to Teach
 colorSchema: light
 css: unocss
