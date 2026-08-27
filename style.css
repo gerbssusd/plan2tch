@@ -1,0 +1,137 @@
+:root {
+  --navy: #1B2A4A;
+  --navy2: #2C4770;
+  --gold: #C9A227;
+  --sage: #7A9471;
+  --sage2: #5E8A88;
+  --olive: #9CAA55;
+  --rust: #B5533C;
+  --rust2: #C06B4A;
+  --cream: #F1EADD;
+  --ink: #232A36;
+  --muted: #5B6472;
+  --line: #DDE1E8;
+  --panel: #F5F7FA;
+}
+
+.slidev-layout {
+  font-family: Calibri, 'Segoe UI', Arial, sans-serif;
+  color: var(--ink);
+  background: #ffffff;
+  font-size: 17px;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  font-family: Cambria, Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.kicker {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.35em;
+}
+
+.kicker.rust { color: var(--rust); }
+
+.slide-title {
+  font-size: 30px;
+  line-height: 1.15;
+  margin-bottom: 0.5em;
+}
+
+.lede {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  max-width: 100%;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1em 1.2em;
+}
+
+.card.panel { background: var(--panel); }
+.card.navy { background: var(--navy); color: #fff; border: none; }
+.card.navy h3, .card.navy .card-title { color: #fff; }
+
+.icon-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.footer-bar {
+  position: absolute;
+  bottom: 0.35em;
+  left: 0.6em;
+  right: 0.6em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.dark-bg .footer-bar { color: #9FB0CE; }
+
+.dark-bg {
+  background: var(--navy);
+  color: #fff;
+}
+.dark-bg h1, .dark-bg h2, .dark-bg h3 { color: #fff; }
+
+.badge {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.bullet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bullet-list li {
+  position: relative;
+  padding-left: 1.1em;
+  margin-bottom: 0.55em;
+  line-height: 1.4;
+  font-size: 14px;
+}
+.bullet-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.numbered-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: var(--navy);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Cambria, Georgia, serif;
+  font-weight: 700;
+  font-size: 16px;
+  flex-shrink: 0;
+}
